@@ -1,0 +1,180 @@
+/*header*/
+a {
+    text-decoration:none; 
+    color: black;
+}
+
+.site-header {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    border:1px solid #EEE;
+    box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px inset;
+    -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px inset;
+    -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px inset;
+}
+
+.title {
+    line-height: 80px;
+    padding-left: 200px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.g_nav {
+    float: right;
+    line-height: 80px;
+    padding-right: 100px;
+    font-family: serif;
+}
+
+.mypage {
+    padding-right: 20px;
+    font-size: 17px;
+    border-right: thick solid rgb(163, 161, 161);
+    border-width: 1px;
+}
+
+.logout {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+/*login*/
+#login_top {
+    width: 100%;
+}
+
+.login_form {
+    height: 300px;
+    text-align: center;
+    padding-top: 90px;
+    background-image: url(../img/top_img7.png);
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    background-position: left 0px  bottom 50%;
+    font-family: serif;
+}
+
+.button {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 14px;
+    border-radius: 5px;
+}
+
+.login_button {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #6091d3;
+    color: #ffffff;
+    border: solid 1px #6091d3;
+    padding: 2px 8px 2px 8px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.button a {
+    color: #ffffff;
+    background-color: #6091d3;
+    border: solid 1px #6091d3;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px 20px 3px 20px;
+    font-size: 14px;
+}
+
+.reset {
+    padding-top: 20px;
+}
+
+.reset a {
+    text-decoration:underline;
+}
+
+.signup_pass {
+    background-color: #f95f3c;
+    color: #ffffff;
+    border: solid 1px #f95f3c;
+    padding: 2px 8px 2px 8px;
+    border-radius: 5px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.signup_button {
+    margin-right: 20px;
+    margin-left: 5px;
+    background-color: #f95f3c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: solid 1px #f95f3c;
+    padding: 2px 6px 2px 6px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.login_form p {
+    margin-bottom: 5px;
+}
+
+.comp {
+    height: 60%;
+    text-align: center;
+    padding-top: 0;
+    font-family: serif;
+}
+
+.comp h2 {
+    margin-top: 0;
+}
+
+.comp a {
+    text-decoration:underline;
+}
+
+.alert {
+    font-size: 7px;
+    color: red;
+}
+
+.signup a {
+    background: #f95f3c;
+    border: solid 3px #f95f3c;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+
+.user_data {
+    margin-right: 350px;
+}
+
+.user_data p {
+    margin-top: 0;
+}
+
+.user_email p {
+    margin-top: 0;
+}
+
+/*いいね機能*/
+.btn-good{
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.btn-good:hover{
+    color: #f44336;
+}
+.active{
+    color: #f44336;
+}
+.btn-good .active{
+    color: #f44336;
+}
+

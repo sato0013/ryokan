@@ -1,0 +1,309 @@
+/*旅館*/
+h2 {
+    padding-left: 100px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: serif;
+    margin-bottom: 0;
+}
+
+a {
+    font-family: serif;
+}
+
+.ryokan_data {
+    display: flex;
+}
+
+.ryokan_img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.ryokan_inf {
+    width:55%;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: serif;
+}
+
+.ryokan_name {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.ryokan_des {
+    white-space: pre-wrap;
+}
+
+.ryokan_inf {
+    font-size: 15px;
+}
+
+.ryokan_detail {
+    float: right;
+    text-decoration:underline;
+}
+
+.paging {
+    text-align: center;
+    font-size: 15px;
+}
+
+.return {
+    font-size: 15px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background: #6091d3;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ryokan_titel{
+    display: flex;
+
+}
+
+.ryokan_register {
+    font-size: 18px;
+    margin-top: 70px;    
+    width: 60%;
+    text-align: right;
+}
+
+.ryokan_register a {
+    background: #ef4248;
+    border: solid 3px #ef4248;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*詳細ページ*/
+.detail_data {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.detail_inf {
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family: serif;
+}
+
+.detail_img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.detail_name {
+    font-size: 25px;
+    margin-top: 0px;   
+}
+
+.detail_int_label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.detail_int {
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 8px;
+    white-space: pre-wrap;
+}
+
+.detail_access_label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.detail_access {
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 8px;
+    white-space: pre-wrap;
+}
+
+.post {
+    text-align: right;
+}
+
+.btn-good {
+    margin-right: 100px;
+}
+
+.iine_count {
+    padding-left: 5px;
+}
+
+.detail_return {
+    margin-left: 150px;
+    background: #6091d3;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.operation {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.edit {
+    margin-right: 30px;
+    background: #44f487;
+    border: solid 3px #44f487;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.delete {
+    background: #f95f3c;
+    border: solid 3px #f95f3c;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*新規・編集画面*/
+.up_data {
+    display: flex;
+    width: 100%;
+}
+
+.up_left {
+    width: 50%;
+    padding-left: 150px;
+    font-family: serif;
+}
+
+.up_right {
+    width: 50%;
+    font-family: serif;
+}
+
+.up_name input {
+    width: 60%;
+}
+
+.up_des textarea {
+    width: 60%;
+    height: 40px;
+}
+
+.up_int textarea {
+    width: 60%;
+    height: 90px;
+}
+
+.up_access textarea {
+    width: 60%;
+    height: 90px;
+}
+
+.up_post {
+    margin-left: 70px;
+    border-radius: 0;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    background-color: #ef4248;
+    color: white;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.up_top {
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.up_top a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(66, 64, 64);
+}
+
+.up_selection {
+    color: #ef4248;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.up_img label {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.up_comp {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.up_comp h2 {
+    margin-bottom: 20px;
+}
+
+.up_comp a {
+    text-decoration:underline;
+}
+
+/*マイページ*/
+.mypost {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.mypost_data {
+    width: 25%;
+    font-family: serif;
+    margin-left: 50px;
+}
+
+.mypost_name {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.mypost_img {
+    width: 180px;
+    height: 120px;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+
+.mypost_return {
+    margin-left: 130px;
+    background: #6091d3;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
