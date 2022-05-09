@@ -1,4 +1,4 @@
-# ryokan-project
+# ryokan
 
 ## 概要
 
